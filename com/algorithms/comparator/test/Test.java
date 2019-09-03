@@ -20,6 +20,7 @@ public class Test {
         students[3] = new Student("Furia", 1);
         students[4] = new Student("Rohde", 2);
 
+        //1.使用自建的插入排序算法根据name进行排序
 //        Insertion.sort(students, Student.BY_NAME);
 //        Insertion.sort(students, Student.BY_SECTION);
         Arrays.sort(students, Student.BY_SECTION);
